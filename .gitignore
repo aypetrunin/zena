@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
+
+# not part of root repo
+/aegra/
+/deepagent/
