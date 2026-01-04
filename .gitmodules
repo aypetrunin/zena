@@ -1,0 +1,9 @@
+[submodule "apifast"]
+	path = apifast
+	url = https://github.com/aypetrunin/apifast.git
+[submodule "langgraph"]
+	path = langgraph
+	url = https://github.com/aypetrunin/langgraph.git
+[submodule "mcpserver"]
+	path = mcpserver
+	url = https://github.com/aypetrunin/mcpserver.git
