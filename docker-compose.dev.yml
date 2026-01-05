@@ -1,0 +1,8 @@
+networks:
+  zena-network:
+    driver: bridge
+
+include:
+  - apifast/docker-compose.dev.yml
+  - langgraph/docker-compose.dev.yml
+  - mcpserver/docker-compose.dev.yml
