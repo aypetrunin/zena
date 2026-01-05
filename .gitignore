@@ -16,3 +16,4 @@ __pycache__/
 
 # local deploy files (may contain secrets)
 deploy/
+replacements.txt
