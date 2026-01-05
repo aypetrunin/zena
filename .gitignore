@@ -15,4 +15,4 @@ __pycache__/
 !/deploy/*.env.example
 
 # local deploy files (may contain secrets)
-deploy/
+# deploy/
