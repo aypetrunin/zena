@@ -9,7 +9,6 @@ docker logs -f zena_mcp
 docker logs -f zena_apifast 
 
 
-# prod/dev
 ## prod
 cd /home/copilot_superuser/petrunin/zena
 docker compose -p zena-prod -f docker-compose.prod.yml --env-file deploy/prod.env down

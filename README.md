@@ -154,9 +154,9 @@ modified: apifast (new commits)
 Фиксируем архитектуру:
 
 ```bash
-git add apifast
-git commit -m "Bump apifast submodule"
-git push
+git add mcpserver
+git commit -m "Bump mcpserver submodule"
+git push --set-upstream origin main
 ```
 
 ✅ Теперь **вся команда** получит обновлённую версию сервиса.
