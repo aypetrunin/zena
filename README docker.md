@@ -43,6 +43,7 @@ docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep zena-dev
 docker logs -f zena-dev-mcpsrv-1
 docker logs -f zena-dev-apifast-1 
 docker logs -f zena-dev-langgraph-api-1
+docker logs -f zena-dev-reminder-worker-1
 
 cd ~/petrunin/zena/mcpserver
 docker compose config | sed -n '/mcpsrv:/,/^[^ ]/p'
