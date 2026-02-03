@@ -7,3 +7,6 @@
 [submodule "mcpserver"]
 	path = mcpserver
 	url = https://github.com/aypetrunin/mcpserver.git
+[submodule "worker_loop"]
+	path = worker_loop
+	url = https://github.com/aypetrunin/worker_loop.git
