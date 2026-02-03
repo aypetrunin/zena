@@ -6,3 +6,4 @@ include:
   - apifast/docker-compose.prod.yml
   - langgraph/docker-compose.prod.yml
   - mcpserver/docker-compose.prod.yml
+  - worker_loop/docker-compose.prod.yml

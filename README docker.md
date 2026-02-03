@@ -19,7 +19,8 @@ docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}" | grep zena-prod
 
 docker logs -f zena-prod-langgraph-api-1
 docker logs -f zena-prod-mcpsrv-1
-docker logs -f zena-prod-apifast-1 
+docker logs -f zena-prod-apifast-1
+docker logs -f zena-prod-reminder-worker-1
 
 
 # ✅ РЕКОМЕНДОВАННЫЙ safe-набор для prod
