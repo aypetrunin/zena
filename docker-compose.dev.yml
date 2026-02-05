@@ -1,3 +1,4 @@
+# docker-compose.dev.yml
 networks:
   zena-network:
     driver: bridge
@@ -7,3 +8,4 @@ include:
   - langgraph/docker-compose.dev.yml
   - mcpserver/docker-compose.dev.yml
   - worker_loop/docker-compose.dev.yml
+  # - observability/docker-compose.dev.yml

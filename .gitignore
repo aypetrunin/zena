@@ -8,6 +8,7 @@ __pycache__/
 # not part of root repo
 /aegra/
 /deepagent/
+/observability/
 
 
 # local env files
