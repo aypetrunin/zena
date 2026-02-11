@@ -48,3 +48,10 @@ docker logs -f zena-dev-reminder-worker-1
 
 cd ~/petrunin/zena/mcpserver
 docker compose config | sed -n '/mcpsrv:/,/^[^ ]/p'
+
+
+# Быстрая очистка Docker (обычно хватает)
+docker system df
+docker builder prune -af
+docker system prune -af
+docker system df
